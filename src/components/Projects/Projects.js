@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import wateraiInfo from "../../Assets/Projects/wateraiInfo.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import smallDataControl from "../../Assets/Projects/smallDataControl.png";
+import wateraiCamera from "../../Assets/Projects/wateraiCamera.png";
+import smallWateraiCollector from "../../Assets/Projects/smallWateraiCollector.png";
+import smallBbeego from "../../Assets/Projects/smallBbeego.png";
+import floodforecast from "../../Assets/Projects/floodforecast.png";
 
 function Projects() {
   return (
@@ -25,77 +27,61 @@ function Projects() {
             <ProjectCard
               imgPath={wateraiInfo}
               isBlog={false}
-              title="[React Native] wateraiInfo"
-              description="The app published on App Store & Google Play Store. "
-              ghLink="https://github.com/tony-yun/Portfolio-Code/tree/master/Portfolio-Code/ReactNative_main"
-              demoLink="https://apps.apple.com/kr/app/wateraiinfo/id6444245568"
+              title="(Main)[React Native] wateraiInfo"
+              description="The app published on App Store & Google Play Store. From design and coding to publish on store worked by myself, check the full description about application on Github : "
+              ghLink="https://github.com/tony-yun/Portfolio_projectCode/tree/master/infoApp"
+              demoLink="https://blog.naver.com/lifeyun24/222930485570"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="[React Native] Data Control App"
-              description=""
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="[React Native] Auto Recording App"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
+              imgPath={smallWateraiCollector}
               isBlog={false}
               title="[React Native] File Uploading App"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              description="The application for users (Internally) to upload videos and form data to server. View the screenshot and features in Github:"
+              ghLink="https://github.com/tony-yun/Portfolio_projectCode/tree/master/uploadApp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={wateraiCamera}
               isBlog={false}
-              title="[React] bbeego"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="[React Native] Auto Recording App"
+              description="The application made to replace the CCTV, features are auto & loop recording, could change the recording duration and zoom value according to response data."
+              ghLink="https://github.com/tony-yun/Portfolio_projectCode/tree/master/cameraApp"
+              demoLink="https://blog.naver.com/lifeyun24/222898997954"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="[Data engineering] Data forecast"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
+              imgPath={smallDataControl}
               isBlog={true}
-              title="[Blog] My Tech Blog"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              title="[React Native] Data Control App"
+              description="The application to modify and fetching the data from Database, with using axios, nodejs and database connection. Available with MySQL CRUD queries."
+              ghLink="https://blog.naver.com/lifeyun24/222889715832"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smallBbeego}
+              isBlog={true}
+              title="[React] bbeego"
+              description="Designed responsive website by using React (team project), then turned the website into webview app. The site: https://www.bbeego.com/"
+              ghLink="https://blog.naver.com/lifeyun24/222759490806"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={floodforecast}
+              isBlog={true}
+              title="[Data engineering] Data forecast"
+              description="With using Python, Pandas lib, PyTorch, Cuda to forecast the flood(LSTM), increased the accuracy from 20% to 80%."
+              ghLink="https://blog.naver.com/lifeyun24/222869311919"
             />
           </Col>
         </Row>

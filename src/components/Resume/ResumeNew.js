@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/tony-yun/portfolio-website-source-code/master/src/Assets/YunTaewoong_Portfolio.pdf";
+  "https://raw.githubusercontent.com/tony-yun/Portfolio_myWebsiteCode/master/src/Assets/YunTaewoong_Portfolio.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -25,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={pdf} //self link from Assets
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
