@@ -13,7 +13,7 @@ function Footer() {
           <h3>Developed by Tony Yun</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Tony</h3>
+          <h3>Copyright © {year} Tae Woong Yun</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

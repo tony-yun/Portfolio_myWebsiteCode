@@ -11,8 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Tony Yun </span>
             from <span className="purple"> Seoul, South Korea.</span>
             <br />
-            I'm currently working as a software engineer(Front-end developer) in
-            an IT company with 1 year of experience.
+            I'm currently working as a software engineer(App developer) in an IT
+            company with 1 and a half year of experience.
             <br />I graduated from Peking University, majored in business
             administration.
             <br />

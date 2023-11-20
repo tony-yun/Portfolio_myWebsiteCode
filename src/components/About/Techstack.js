@@ -11,6 +11,7 @@ import {
   DiHtml5,
   DiCss3,
   DiNpm,
+  DiSwift,
 } from "react-icons/di";
 import { SiRedux, SiYarn, SiExpress } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -22,6 +23,9 @@ function Techstack() {
       {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSwift />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
