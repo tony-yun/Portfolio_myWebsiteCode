@@ -10,6 +10,9 @@ import wateraiCamera from "../../Assets/Projects/wateraiCamera.png";
 import smallWateraiCollector from "../../Assets/Projects/smallWateraiCollector.png";
 import smallBbeego from "../../Assets/Projects/smallBbeego.png";
 import floodforecast from "../../Assets/Projects/floodforecast.png";
+import GroceryList from "../../Assets/Projects/GroceryList.jpeg";
+import LEDBoard from "../../Assets/Projects/LEDBoard.jpeg";
+import HackersOne from "../../Assets/Projects/HackersOne.jpeg";
 
 function Projects() {
   return (
@@ -23,6 +26,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GroceryList}
+              isBlog={true}
+              title="[Swift / SwiftUI+Widget] 오늘의 장보기"
+              description="The grocery list todolist app which made with SwiftUI and has Widget Extension."
+              ghLink="https://blog.naver.com/lifeyun24/223269569112"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={LEDBoard}
+              isBlog={true}
+              title="[Swift / UIKit] 최애의 아이돌"
+              description="The LEDBoard app which scrolls text which user's input, can adjust font, font size and scroll speed, etc."
+              ghLink="https://blog.naver.com/lifeyun24/223269558367"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HackersOne}
+              isBlog={true}
+              title="[React Native] 해커스ONE"
+              description="The integrate app which contains purchase, video and commit, etc functions."
+              ghLink="https://champ.hackers.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wateraiInfo}
