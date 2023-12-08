@@ -13,6 +13,7 @@ import floodforecast from "../../Assets/Projects/floodforecast.png";
 import GroceryList from "../../Assets/Projects/GroceryList.jpeg";
 import LEDBoard from "../../Assets/Projects/LEDBoard.jpeg";
 import HackersOne from "../../Assets/Projects/HackersOne.jpeg";
+import WorldMovie from "../../Assets/Projects/WorldMovie.jpeg";
 
 function Projects() {
   return (
@@ -26,6 +27,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WorldMovie}
+              isBlog={false}
+              title="[React Native] 월드 무비"
+              description="Published on AppStore. TypeScript, Firebase, AuthContext."
+              ghLink="https://github.com/tony-yun/Portfolio_WorldMovie/tree/master"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={GroceryList}

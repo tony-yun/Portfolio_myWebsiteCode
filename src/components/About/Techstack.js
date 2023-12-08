@@ -24,9 +24,6 @@ function Techstack() {
         <CgCPlusPlus />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiSwift />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -58,6 +55,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiYarn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSwift />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />

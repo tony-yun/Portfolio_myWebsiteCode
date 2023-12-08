@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Swift and TypeScript.</b>
+                <b className="purple"> TypeScript.</b>
               </i>
               <br />
               <br />
@@ -41,14 +41,11 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Swift, TypeScript</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Swift, TypeScript Library and Frameworks
-                </b>
+                <b className="purple"> TypeScript Library and Frameworks</b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> SwiftUI, UIKit and React Native.</b>
+                <b className="purple"> React Native and SwiftUI.</b>
               </i>
             </p>
           </Col>
