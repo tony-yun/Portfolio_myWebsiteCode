@@ -29,7 +29,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <a
-          href="ncnc://event/woori09"
+          href="https://link.ncnc.app/woori09"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "inherit", textDecoration: "none" }}
